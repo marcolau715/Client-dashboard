@@ -1,0 +1,92 @@
+/* Resetting some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .user-profile {
+    font-size: 20px;
+}
+
+.logout-btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Navigation Menu Styles */
+.navigation-menu {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+}
+
+.navigation-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navigation-menu a.active {
+    font-weight: bold;
+}
+
+/* Content Area Styles */
+.content {
+    padding: 20px;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label, form input, form select, form textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
