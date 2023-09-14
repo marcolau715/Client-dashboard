@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Client Onboarding</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
+    <header>
+        <div class="logo">App Logo</div>
+        <div class="user-profile">User Profile</div>
+        <button class="logout-btn">Logout</button>
+    </header>
+
+    <nav class="navigation-menu">
+        <ul>
+            <li><a href="#" class="active">Dashboard</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <!-- Content will be dynamically loaded here -->
     </div>
-    <script src="script.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
